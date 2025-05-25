@@ -1,0 +1,15 @@
+{
+  "name": "hianime-proxy",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.2.0",
+    "hono": "^4.5.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240806.0",
+    "wrangler": "^3.57.2"
+  }
+}
